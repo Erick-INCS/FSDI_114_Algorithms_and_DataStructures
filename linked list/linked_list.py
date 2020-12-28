@@ -61,14 +61,16 @@ class LinkedList:
             nd = nd.next
 
 
-ts = LinkedList(6)
-ts.append(10)
-ts.append(21)
-ts.append(12)
-ts.append(33, 10)
+if __name__ == '__main__':
 
-ts.prepend(-1)
+    ts = LinkedList(6)
+    ts.append(10)
+    ts.append(21)
+    ts.append(12)
+    ts.append(33, 10)
 
-ts.remove(10)
+    ts.prepend(-1)
 
-print(ts)
+    ts.remove(10)
+
+    print(ts)

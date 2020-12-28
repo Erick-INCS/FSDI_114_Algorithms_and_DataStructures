@@ -5,7 +5,7 @@ def binary_search(arr, ele):
     found = False
 
     while first <= last and not found:
-        mid = (fist+last)/2
+        mid = (first+last)/2
 
         if arr[mid] == ele:
             found = True
@@ -14,7 +14,7 @@ def binary_search(arr, ele):
             if ele < arr[mid]:
                 last = mid - 1
             else:
-                fist = mid + 1
+                first = mid + 1
     return found
 
 def rec_bin_search(arr, ele):

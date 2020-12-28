@@ -23,3 +23,18 @@ class Queue:
     def size(self):
         """ annoying """
         return len(self.items)
+
+
+if __name__ == '__main__':
+    q = Queue()
+    if q.is_empty():
+        q.enqueue('first')
+        q.enqueue('second')
+        q.enqueue(3)
+        q.enqueue('last')
+
+    print("Size: ", q.size())
+
+    while not q.is_empty():
+        print(q.dequeue())
+

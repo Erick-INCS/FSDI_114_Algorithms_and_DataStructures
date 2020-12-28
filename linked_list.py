@@ -61,7 +61,6 @@ class LinkedList:
             nd = nd.next
 
 
-
 ts = LinkedList(6)
 ts.append(10)
 ts.append(21)

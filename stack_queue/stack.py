@@ -46,5 +46,3 @@ def implement():
 
 if __name__ == "__main__":
     implement()
-
-# homework palindrome?

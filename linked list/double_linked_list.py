@@ -112,5 +112,5 @@ if __name__ == '__main__':
     ts.insert(26, -25)
     ts.insert(26, -24, False)
 
-    assert ts.find(-1, ts.find(17), False).val == -1, "Backward of Foward search is not working."
+    assert ts.find(-1, ts.find(17), False).val == -1, "Backward or Foward search is not working."
     print(ts)

@@ -51,6 +51,8 @@ class DoubleLinkedList:
 
         tmp.next = Node(val)
         tmp.next.prev = tmp
+        
+        return tmp.next
 
     def prepend(self, val):
         """ add an alement at the begining """
